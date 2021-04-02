@@ -49,7 +49,7 @@
             <div class="ch about"> <div class="container">
             <h2 class="chtitle">Who is <span>BeiChen</span>？</h2>
             <div class="clear"> <div class="introduct">
-            <img class="avatar" src="../static/images/BeiChen.jpg"> <P>坚硬的代替了那些柔软的，清晰的取代了那些模糊的。那些滑溜溜和黏糊糊的东西，带你来到了世界的角落。</p>
+            <img class="avatar" src={% static "images/beichen.jpg" %}> <P>坚硬的代替了那些柔软的，清晰的取代了那些模糊的。那些滑溜溜和黏糊糊的东西，带你来到了世界的角落。</p>
             <p style="padding-bottom:1em;">How lucky to meet you!</p>
             <p>你好，这里是北辰 <sup>BeiChen</sup> ，20岁，是学生，对有趣的世界和可能有趣的你感到好奇，热爱机车和网络文化，正在尝试从事互联网产品/Python大数据相关工作。</p>
             <p>希望能与你在比特之海的繁星之下相见！</p>
@@ -126,7 +126,8 @@
                           <span>YouTube</span> </div> </div> </a>
                           <a href="/" target="_blank">
                           <div class="item"> <div class="bg" style="background-color:#f09199"></div>
-                          <div class="inner"> <i class="icon-bookmark"></i> <span>Bangumi</span> </div> </div> </a> <a href="http://music.163.com" target="_blank">
+                          <div class="inner"> <i class="icon-bookmark"></i> <span>Bangumi</span> </div></div></a>
+                          <a href="https://github.com/beichen123-hub/wangyiyun.git" target="_blank">
                           <div class="item"> <div class="bg" style="background-color:#f12d35"></div>
                           <div class="inner"> <i class="icon-netease_music"></i>
                           <span>网易云音乐</span> </div> </div> </a>
@@ -137,12 +138,15 @@
                           <div class="inner"> <i class="icon-instagram"></i> <span>Instgram</span> </div> </div> </a> </div> </div> </div>
                           <div class="gate ch"> <div class="container links">
                           <div class="clear"> <a href="/" target="_blank">
-                          <h2 class="chtitle">北辰的<span>乖乖</span></h2>
+                          <h2 class="chtitle">北辰的<span>乖乖和她的朋友</span></h2>
                           <div class="item">
                               <a href="zengyin.html" target="_blank">
                           <div class="avatar"> <img src="../static/images/guaiguai.jpg"> </div>
                           <div class="inner"> <h5>美丽可爱的</h5> <p>小仙女</p> </div> </div> </a>
                               <a href="zengying.html" target="_blank"></a></div>
+                          <a href="{% url 'error' %}" target="_blank">
+                          <div class="item akarin"> <div class="avatar"> <img src="../static/images/xueshanshan.jpg"> </div>
+                          <div class="inner"> <h5><span style="opacity:.3"></span>冷酷美艳</h5> <p>的大姐姐</p> </div> </div> </a>
                             <h2 class="chtitle"></h2>
                           <h2 class="chtitle">北辰的<span>朋友们</span></h2>
                           <a href="{% url 'error' %}" target="_blank">
